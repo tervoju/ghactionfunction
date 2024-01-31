@@ -9,7 +9,7 @@ on:
       - '.github/workflows/devfunc.yml'
 
 env:
-  AZURE_FUNCTIONAPP_NAME: 'func2eventhub' # set this to the name of your Azure Function 
+  AZURE_FUNCTIONAPP_NAME: 'receiverfunctionapp4data' # set this to the name of your Azure Function 
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.11' # set this to the python version to use (supports 3.6, 3.7, 3.8)
   FUNC_WORKING_DIRECTORY: "." # path to the function app project relative to repo root
